@@ -1,0 +1,15 @@
+CityDto:
+  type: object
+  properties:
+    userId:
+      type: string
+      format: uuid
+      description:  uniq id of the city
+    fullName:
+      type: string
+      description: Full Name of the city
+      nullable: true
+      example: נתניה  
+    
+ 
+    

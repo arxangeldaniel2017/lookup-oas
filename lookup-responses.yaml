@@ -1,0 +1,12 @@
+'200':
+  description: OK 
+  content:
+    application/json:              
+      schema:
+        type: array
+        items:
+          $ref: 'lookup-schemas.yaml#/CityDto'
+'400':
+  description: If any data is incorrect
+'500':
+  description: If any server Error

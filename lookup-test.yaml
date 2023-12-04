@@ -1,0 +1,21 @@
+openapi: 3.0.1
+info:
+  title: Expeneses API
+  version: 1.2.0
+  contact:
+    name: Tomer Kedem - KKL API
+    email: daniel@one1.co.il
+  description: API providing data for expeneses new project|
+  
+servers:
+  - url: http://lookup-test.swagger.io/v1
+tags:
+- name: lookup 
+  description: Lookup functions
+paths:
+  /lookup/listCities/{searchString}: 
+    $ref: "list-cities.yaml"
+    
+    
+ 
+    

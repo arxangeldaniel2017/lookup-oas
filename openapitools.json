@@ -1,0 +1,32 @@
+{
+  "spaces": 2,
+  "generator-cli": {
+    "version": "6.0.1",
+    "generators": {    
+      "aspnetcore": { 
+        "generatorName": "aspnetcore",
+        "output": "#{cwd}/output/v1.2.0/aspnetcore",
+        "glob": "lookup-test.yaml",
+        "additionalProperties": {
+          "packageName": "LookupTest",
+          "packageTitle": "LookupTest",
+          "packageVersion": "1.6.0",
+          "aspnetCoreVersion": "6.0",
+          "buildTarget": "program",
+          "generateBody": true,
+          "newtonsoftVersion": "13.0.1",
+          "nullableReferenceTypes": true,
+          "operationIsAsync": true,
+          "packageAuthors": "Daniel Galeev",
+          "operationResultTask": true,
+          "swashbuckleVersion": "5.0.0",
+          "useDefaultRouting": true,
+          "useFrameworkReference": true,
+          "useNewtonsoft": true,
+          "useSwashbuckle": true 
+        }
+      }
+    }
+  }
+}
+ 
